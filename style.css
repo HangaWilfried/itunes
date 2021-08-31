@@ -27,6 +27,9 @@ section input{
     border-radius: 5px;
     padding: 15px;
 }
+input[type="text"]{
+    font-size: 18px;
+}
 
 input[type="submit"]{
     padding: 7px !important;
@@ -44,11 +47,30 @@ input[type="submit"]{
 ul{
     display: block;
 }
-li{
+.sublist{
     list-style-type: none;
     margin-bottom: 12px;
-    margin-top: 5px;
+    margin-top: 10px;
     border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    padding: 5px 4px;
+    color: #005;
+}
+li{
+    list-style-type: none;
+    margin-top: 5px;
     padding: 12px 4px;
     color: #005;
+}
+button{
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 15px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+}
+
+#contain{
+    margin-bottom: 50px;
 }
